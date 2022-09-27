@@ -6,6 +6,13 @@
 public class Bat extends Mammal{
 
 
+    int energyLevel = 300;
+
+    @Override
+    public int displayEnergy(){
+        System.out.println(this.energyLevel);
+        return this.energyLevel;
+    }
 
     /**
      * For the fly() method, print the sound of a bat taking off and decrease its energy by 50.
