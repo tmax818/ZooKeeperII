@@ -17,17 +17,25 @@ public class Bat extends Mammal{
     /**
      * For the fly() method, print the sound of a bat taking off and decrease its energy by 50.
      */
-    public void fly(){}
+    public void fly(){
+        System.out.println("sound of a bat taking off");
+        this.energyLevel -= 50;
+    }
 
 
     /**
      * For the eatHumans() method, print the so- well, never mind, just increase its energy by 25.
      */
-    public void eatHumans(){}
+    public void eatHumans(){
+        this.energyLevel -= 25;
+    }
 
 
     /**
      * For the attackTown() method, print the sound of a town on fire and decrease its energy by 100.
      */
-    public void attackTown(){}
+    public void attackTown(){
+        System.out.println("the sound of a town on fire");
+        this.energyLevel -= 100;
+    }
 }
